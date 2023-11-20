@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+#parking-lot {
+    width: 400px;
+    height: 200px;
+    border: 2px solid #333;
+    position: relative;
+}
+
+.car {
+    width: 50px;
+    height: 25px;
+    background-color: #4285f4;
+    position: absolute;
+    bottom: 0;
+}
+
+#controls {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    margin: 0 10px;
+}
